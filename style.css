@@ -1,0 +1,304 @@
+/* order , стоит по умолчанию на 0, при изменении значения элемент буде м менять свое местоположение */
+@media print {
+    .block1 {background: none;} 
+    .carousel {display:none;}
+    a[href^=http]:after {content:" <" attr(href) ">";}
+    h1, div#header, div#sidebar, div#footer { display: none; }
+    #div1 {display: block;}
+    #div1 {display: block;}
+    #div1 {display: block;}
+    .aboutus {display: none;}
+}
+
+* { -webkit-print-color-adjust: exact; }
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.lol {
+    color: white !important;
+    font-weight: bold;
+}
+
+.lol:hover {
+    color: lightgray !important;
+}
+
+.block1 {
+    background-image: url(img/сакуракарт.jpg);
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    flex-direction: row-reverse;
+}
+
+@media screen and (min-width:150px)
+{
+    .block1{
+        display:none;
+    }
+}
+
+@media screen and (min-width:1100px)
+{
+    .block1{
+        display:flex;
+    }
+}
+
+
+.block2 {
+    background-image: url(img/atele1.jpg);
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block3 {
+    background-image: url(img/1234.png);
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block1 span {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.aboutus {
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.aboutus h1 {
+    font-size: 3rem;
+}
+
+.us {
+    margin-top: 2vw; 
+}
+
+@media screen and (min-width:150px)
+{
+    .us{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:1100px)
+{
+    .us{
+        display:flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width:150px)
+{
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons input {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (min-width:1100px)
+{
+    .buttons{
+        display: flex;
+    }
+}
+
+@media screen and (min-width:150px)
+{
+    .butons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .butons input {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (min-width:1100px)
+{
+    .butons{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.us .btn {
+    margin-left: 1vw;
+}
+
+#div1 {
+    display: block;
+}
+
+#div2 {
+    display: none;
+}
+
+#div3 {
+    display: none;
+}
+
+.noneblock { 
+    font-size: 1.5rem;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    margin-top: 4vh;
+}
+
+.tsh {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 7vw;
+}
+
+#tsh1 {
+    display: flex;
+}
+
+#tsh2 {
+    display: none;
+}
+
+#tsh3 {
+    display: none;
+}
+
+.btntsh1 {
+    display: block;
+}
+
+#button {
+    display: block;
+    margin-top: 8vh;
+}
+
+.form {
+    background-image: url(img/INFO.jpg);
+    background-size: cover;
+    padding: 6vh 0;
+    color: white;
+    margin-top: 8vh;
+}
+
+.formtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hrefs {
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: bold;
+}
+
+.sometext {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    margin-top: 6vh;
+}
+
+.someimg {
+    width: 30vw;
+    height: 35vh;
+    margin-top: 5vh;
+}
+
+@media screen and (min-width:150px)
+{
+    .someimg{
+        display:none;
+    }
+}
+
+@media screen and (min-width:1100px)
+{
+    .someimg{
+        display:inline;
+    }
+}
+
+.car {
+    margin-top: 8vh;
+}
+
+.map {
+    border: 1.5px solid white;
+    outline: 4px solid MediumOrchid;
+}
+
+@media screen and (min-width:150px)
+{
+    .map{
+        display:none;
+    }
+}
+@media screen and (min-width:1100px)
+{
+    .map{
+        display:inline;
+    }
+}
+
+.contact {
+    margin: 8vh 0;
+}
+
+.footer {
+    box-sizing: border-box;
+    padding-top: 190px;
+    height: 300px;
+}
+
+.elevator {
+    text-align: center;
+    cursor: pointer;
+    width: 140px;
+    margin: auto;
+}
+
+.elevator:hover {
+    opacity: 0.7;
+}
+
+.elevator svg {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+}
